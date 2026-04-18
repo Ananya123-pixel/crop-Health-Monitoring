@@ -1,3 +1,9 @@
+import streamlit as st
+import cv2
+import numpy as np
+from PIL import Image
+import matplotlib.pyplot as plt
+
 st.set_page_config(
     page_title="AgroScan AI",
     page_icon="🌾",
@@ -9,11 +15,6 @@ st.markdown("""
 <h4 style='text-align: center;'>Smart Crop Health Monitoring System</h4>
 """, unsafe_allow_html=True)
 st.info("📸 Upload a clear image of crop leaves to analyze health condition.")
-import streamlit as st
-import cv2
-import numpy as np
-from PIL import Image
-import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Crop Monitoring System", layout="wide")
 
