@@ -141,7 +141,7 @@ if uploaded_file:
     # SOIL
     # =========================
     st.subheader("🌱 Soil Intelligence")
-    
+    st.write(f"🧱 Soil Type: {soil}")
     st.write(f"⚗️ pH Level: {ph}")
     st.write(f"🧪 Nutrients: {nutrients}")
     st.write(f"🌾 Suitable Crops: {crops}")
